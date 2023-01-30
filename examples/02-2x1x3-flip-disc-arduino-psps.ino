@@ -124,6 +124,11 @@ void loop()
   FlipDisc.ToFlip3(2, 3, 0);
   delay(3000);
   
+  /* Set selected dots */
+  FlipDisc.ToFlip3(1, 2, 1);
+  FlipDisc.ToFlip3(2, 2, 1);
+  delay(3000);
+  
   FlipDisc.Clear();
   delay(1000);
 }
