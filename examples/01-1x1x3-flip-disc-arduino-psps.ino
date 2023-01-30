@@ -6,8 +6,8 @@
  * Marcin Saj 30 Jan 2023                                                           *
  * https://www.Flipo.io                                                             *
  *                                                                                  *
- * A dedicated controller or any Arduino board with a power module is required      *
- * to operate the display:                                                          *
+ * Arduino board with a power module or dedicated controller is required to operate *
+ * the display:                                                                     *
  * 1. Arduino board + Pulse Shaper Power Supply - https://bit.ly/PSPS-FD            *
  * 2. Or dedicated controller - https://bit.ly/AC1-FD                               *
  *----------------------------------------------------------------------------------*/
@@ -43,6 +43,7 @@ void setup()
   The function is used to declare pin functions. Before starting the device, double check 
   that the declarations and connection are correct. If the connection of the control outputs 
   is incorrect, the display may be physically damaged. */
+ 
   FlipDisc.Pin(EN_PIN, CH_PIN, PL_PIN);
   
   /* FlipDisc.Init() it is second most important function. 
@@ -54,6 +55,7 @@ void setup()
   - FLIP3 - 1x3 display
   - FLIP7 - 1x7 display 
   Example for two FLIP3 displays: FlipDisc.Init(FLIP3, FLIP3); */
+  
   FlipDisc.Init(FLIP3);
   delay(3000);
 }
