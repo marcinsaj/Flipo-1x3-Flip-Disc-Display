@@ -8,8 +8,8 @@
  *                                                                                  *
  * A dedicated controller or any Arduino board with a power module is required      *
  * to operate the display:                                                          *
- * 1. Dedicated controller - https://bit.ly/AC1-FD                                  *
- * 2. Or any Arduino board + Pulse Shaper Power Supply - https://bit.ly/PSPS-FD     *
+ * 1. Arduino board + Pulse Shaper Power Supply - https://bit.ly/PSPS-FD            *
+ * 2. Or dedicated controller - https://bit.ly/AC1-FD                               *
  *----------------------------------------------------------------------------------*/
 
 /* The library <FlipDisc.h> uses SPI to control flip-disc displays. 
