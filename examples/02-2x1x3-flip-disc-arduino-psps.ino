@@ -102,14 +102,14 @@ void loop()
 
   /* Function allows you to control a selected disc in a selected D1X3 display.
   You can control only one disc of the selected display at a time.
-  Flip.Disc_1x3(module_number, discNumber, discStatus);
+  Flip.Disc_1x3(module_number, disc_number, disc_status);
   The first argument module_number is the relative number of the display 
   in the series of all displays. For example, if we have a combination of 
   D1X3, D7SEG, D1X3, then the second D1X3 display will have a relative number of 2 
   even though there is a D7SEG display between the D1X3 displays.
   - module_number - relative number of the D1X3 display
-  - discNumber - display disc number counting from left to right 1-3
-  - discStatus - reset disc "0" or set disc "1" */
+  - disc_number - display disc number counting from left to right 1-3
+  - disc_status - reset disc "0" or set disc "1" */
   
   /* Reset selected discs of the first D1X3 display counting from the left */
   Flip.Disc_1x3(1, 1, 0);
