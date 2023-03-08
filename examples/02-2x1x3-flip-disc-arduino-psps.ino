@@ -1,5 +1,5 @@
 /*----------------------------------------------------------------------------------*
- * A simple example of controlling one 1x3 flip-disc display                        *
+ * A simple example of controlling two 1x3 flip-disc displays                       *
  * Example connection diagram: https://bit.ly/2x1x3-ARD                             *
  *                                                                                  *
  * Project website: https://bit.ly/1x3-FD                                           *
